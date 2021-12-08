@@ -10,9 +10,9 @@ function startDemo(){
 var accountId = document.getElementById("viewTxt").value;
 var streamName = document.getElementById("streamTxt").value;
 var subToken = document.getElementById("subToken").value;
-var url = "https://rnkvogel.github.io/Millicast-Player/player/?id=" +  streamName + "&account=" + accountId + "&token=" + subToken ;
+var url = "https://rnkvogel.github.io/millicast-sdk-demo-test/publsher/?streamToken=" +  streamName + "&accountId=" + accountId + "&streamName=" + streamName ;
  window.open(url);
- }
+}
 
 </script>
 
@@ -21,8 +21,8 @@ var url = "https://rnkvogel.github.io/Millicast-Player/player/?id=" +  streamNam
  <p>Secure token no required if publisher is not set for secure stream. Please enter your stream name and account id</p>
 <div id="form" class="account-data">
 <input id="streamToken" class="base-input" type="text" value="" placeholder="Stream Token" />
-<input id="viewTxt" class="base-input" type="text" value="" placeholder="Account Id"/>
-<input id="streamTxt" class="base-input ml-10 mr-10" type="text" value="" placeholder="Stream Name"/>
+<input id="accountId" class="base-input" type="text" value="" placeholder="Account Id"/>
+<input id="streamName" class="base-input ml-10 mr-10" type="text" value="" placeholder="Stream Name"/>
  </div>
   <div>
   </div>
