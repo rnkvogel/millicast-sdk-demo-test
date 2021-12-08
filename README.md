@@ -5,7 +5,7 @@ You will need a Millicast account to get started. https://millicast.com/
 
 Once you have created a Millicast account you will need to create a live stream token. If you would like to use the DEMO make sure the token is for any(*) name.
 
-DEMO: https://rnkvogel.github.io/millicast-sdk-demo-test/publisher/
+DEMO: https://rnkvogel.github.io/millicast-sdk-demo-test/
 
 In your Millicast portal(+) Add a new token and Make sure to select Use ANY name * for this set up!!!!!! Security options can be set up with this example using the Millicast API. Download the files. Open these files with a text editor.
 
