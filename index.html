@@ -7,9 +7,9 @@ let params     = new URLSearchParams(document.location.search.substring(1));
 // SubscribingToken - placed here for ease of tes	
 
 function startDemo(){
-var accountId = document.getElementById("viewTxt").value;
-var streamName = document.getElementById("streamTxt").value;
-var subToken = document.getElementById("subToken").value;
+var accountId = document.getElementById("accountId").value;
+var streamName = document.getElementById("streamName").value;
+var subToken = document.getElementById("streamToken").value;
 var url = "https://rnkvogel.github.io/millicast-sdk-demo-test/publsher/?streamToken=" +  streamName + "&accountId=" + accountId + "&streamName=" + streamName ;
  window.open(url);
 }
